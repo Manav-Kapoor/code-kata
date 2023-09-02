@@ -66,6 +66,14 @@ businessRouter.post("/fetch-balance-sheet", (req, res) => {
       },
     });
   }
+  if(yearOfEstablishment > new Date().getFullYear()){
+    return res.status(BAD_REQUEST).send({
+      success: false,
+      error: {
+        accountingProvider: "Invalid YOE provided.",
+      },
+    });
+  }
   if (!isValidAccountingProvider(accountingProvider)) {
     return res.status(BAD_REQUEST).send({
       success: false,
