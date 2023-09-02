@@ -27,4 +27,7 @@ What is the frontend doing?
   2. After fetching the balance sheet, a button is present to apply loan which again sends the HTTP request to the backend to give the decision whether the loan is approved or not.
   ![image](https://github.com/Manav-Kapoor/code-kata/assets/33180472/383fc5a5-3788-4b75-8eb6-52d3e61d049b)
 
+Implementation in future:
+  1. Addition of database: Currently the business information is stored in memory. A database can be added to store business information.
+
 Any comments are appreciated.
