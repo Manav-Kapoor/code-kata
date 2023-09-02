@@ -8,8 +8,8 @@ Tech Stack Used:
   2. Backend - Node.js (Express)
 
 How to run the project?
-  1. Running the backend: Open a terminal -> cd server -> node index.js.
-  2. Running the frontend: Open a terminal -> cd client -> npm run start.
+  1. Running the backend: Open a terminal -> cd server -> npm install -> node index.js.
+  2. Running the frontend: Open a terminal -> cd client -> npm install -> npm run start.
 
 What is the backend doing?
 The backend consists of two routes:
